@@ -25,6 +25,11 @@ int main()
     cout << "So your first name nickname is " + FirstName.substr(0, Firstl) + LastName.substr(0, Lastl) << endl;
     cout << "And your last name nickname is " + LastName.substr(0, Lastl) + FirstName.substr(0, Firstl) << endl;
 
+    char in1 = FirstName[0];
+    char in2 = LastName[0];
+
+    cout << "Ooh your initials are " << in1 << in2 << endl;
+
 
     return 0;
 
