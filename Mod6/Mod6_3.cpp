@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+    
     string employeeName;
     double transactionsValue;
     int numTransactions;
