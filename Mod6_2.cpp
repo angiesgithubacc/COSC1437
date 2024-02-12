@@ -6,11 +6,11 @@ int main() {
     int num2 = 53;
     int num3 = 78;
 
-    int largest = num1;
     int smallest = num1;
+    int largest = num3;
 
     if (num2 > largest) {
-        largest = num2;
+        largest = num3;
     }
 
     if (num3 > largest) {
