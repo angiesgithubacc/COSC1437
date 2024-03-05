@@ -11,7 +11,7 @@ double calculate(double num1, double num2, char op) {
         case '/':
             return num1 / num2;
         case '%':
-            return fmod(num1, num2);
+            return (num1, num2);
         default:
             return 0.0;
     }
